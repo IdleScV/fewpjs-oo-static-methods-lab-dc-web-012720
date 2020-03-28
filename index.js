@@ -12,7 +12,7 @@ class Formatter {
     let array = sentence.split(" ");
     let first = array[0][0].toUpperCase()
     let last = array.slice(1).map( x => 
-      if (excepts.include)
+      if (excepts.includes(x))
     )
     
     return [first ...last]
