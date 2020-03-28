@@ -3,5 +3,11 @@ class Formatter {
     return string[0].toUpperCase() + string.split(1)
   }
   
-  static 
+  static sanitize(string){
+    return 
+  }
+  
+  static titleize(string){
+    return 
+  }
 }
