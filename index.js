@@ -8,11 +8,11 @@ class Formatter {
   }
   
   static titleize(sentence){
-    let excepts = ['a', "an", "but", "of", "and", "for". "at". ]
+    let excepts = ['a', "an", "but", "of", "and", "for". "at", "by", "from"]
     let array = sentence.split(" ");
     let first = array[0][0].toUpperCase()
     let last = array.slice(1).map( x => 
-      if ()
+      if (excepts.include)
     )
     
     return [first ...last]
