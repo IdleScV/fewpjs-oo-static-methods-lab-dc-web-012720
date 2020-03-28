@@ -13,7 +13,7 @@ class Formatter {
     let first = array[0][0].toUpperCase()
     let last = array.slice(1).map( x => 
       if (!excepts.includes(x)){
-        return
+        return capitalize(x)
       }else{
         return x
       }
