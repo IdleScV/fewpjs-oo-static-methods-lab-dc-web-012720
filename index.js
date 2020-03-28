@@ -7,7 +7,10 @@ class Formatter {
     return 
   }
   
-  static titleize(string){
-    return 
+  static titleize(sentence){
+    let array = sentence.split(" ");
+    let first = array[0][0].toUpperCase()
+    let last = array.split(1)
+    return sentence.split(" ")
   }
 }
