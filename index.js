@@ -8,10 +8,13 @@ class Formatter {
   }
   
   static titleize(sentence){
+    let excepts = ['a', "an", "but", "of", "and", "for". "at". ]
     let array = sentence.split(" ");
     let first = array[0][0].toUpperCase()
-    let last = array.slice(1).map
+    let last = array.slice(1).map( x => 
+      if ()
+    )
     
-    return 
+    return [first ...last]
   }
 }
